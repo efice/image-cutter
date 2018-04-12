@@ -21,7 +21,6 @@ class ImageServiceProvider extends ServiceProvider
     {
         // Config file path
         $configFile = __DIR__ . '/../../resources/config/image.php';
-        $publicFile = __DIR__ . '/../../resources/assets/';
 
         // Merge files
         $this->mergeConfigFrom($configFile, 'image');
@@ -31,10 +30,6 @@ class ImageServiceProvider extends ServiceProvider
             $configFile => config_path('image.php')
         ], 'config');
         
-        $this->publishes([
-            $publicFile => public_path('vendor/efice/image')
-        ], 'public');
-
         $app = $this->app;
         $router = $app['router'];
         $config = $app['config'];
