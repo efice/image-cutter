@@ -1,8 +1,8 @@
 <?php namespace Folklore\Image;
 
-use Folklore\Image\Exception\FileMissingException;
-use Folklore\Image\Exception\Exception;
-use Folklore\Image\Events\ImageSaved;
+use Efice\Image\Exception\FileMissingException;
+use Efice\Image\Exception\Exception;
+use Efice\Image\Events\ImageSaved;
 
 class ImageServe
 {

@@ -109,18 +109,18 @@ $ composer update
 
 **3-** Add the service provider to your `app/config/app.php` file
 ```php
-'Folklore\Image\ImageServiceProvider',
+'Efice\Image\ImageServiceProvider',
 ```
 
 **4-** Add the facade to your `app/config/app.php` file
 ```php
-'Image' => 'Folklore\Image\Facades\Image',
+'Image' => 'Efice\Image\Facades\Image',
 ```
 
 **5-** Publish the configuration file and public files
 
 ```bash
-$ php artisan vendor:publish --provider="Folklore\Image\ImageServiceProvider"
+$ php artisan vendor:publish --provider="Efice\Image\ImageServiceProvider"
 ```
 
 **6-** Review the configuration file

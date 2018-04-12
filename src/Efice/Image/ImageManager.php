@@ -1,9 +1,9 @@
 <?php namespace Folklore\Image;
 
-use Folklore\Image\Exception\Exception;
-use Folklore\Image\Exception\FileMissingException;
-use Folklore\Image\Exception\ParseException;
-use Folklore\Image\Exception\FormatException;
+use Efice\Image\Exception\Exception;
+use Efice\Image\Exception\FileMissingException;
+use Efice\Image\Exception\ParseException;
+use Efice\Image\Exception\FormatException;
 
 use Illuminate\Support\Manager;
 

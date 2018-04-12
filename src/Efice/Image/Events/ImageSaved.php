@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image\Events;
+<?php namespace Efice\Image\Events;
 
 class ImageSaved
 {

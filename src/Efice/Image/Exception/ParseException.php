@@ -1,3 +1,3 @@
-<?php namespace Folklore\Image\Exception;
+<?php namespace Efice\Image\Exception;
 
 class ParseException extends Exception { }

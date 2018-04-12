@@ -52,7 +52,7 @@ class ImageServiceProvider extends ServiceProvider
             $router->get($serveRoute, array(
                 'as' => 'image.serve',
                 'domain' => $config->get('image.domain', null),
-                'uses' => 'Folklore\Image\ImageController@serve'
+                'uses' => 'Efice\Image\ImageController@serve'
             ));
         }
         
@@ -63,7 +63,7 @@ class ImageServiceProvider extends ServiceProvider
             $router->get($serveRoute, array(
                 'as' => 'image.proxy',
                 'domain' => $config->get('image.proxy_domain'),
-                'uses' => 'Folklore\Image\ImageController@proxy'
+                'uses' => 'Efice\Image\ImageController@proxy'
             ));
         }
     }

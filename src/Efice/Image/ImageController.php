@@ -4,9 +4,9 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 
-use Folklore\Image\Exception\Exception;
-use Folklore\Image\Exception\FileMissingException;
-use Folklore\Image\Exception\ParseException;
+use Efice\Image\Exception\Exception;
+use Efice\Image\Exception\FileMissingException;
+use Efice\Image\Exception\ParseException;
 
 use App;
 use Image;

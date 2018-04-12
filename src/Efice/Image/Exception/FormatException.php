@@ -1,3 +1,3 @@
-<?php namespace Folklore\Image\Exception;
+<?php namespace Efice\Image\Exception;
 
 class FormatException extends Exception { }

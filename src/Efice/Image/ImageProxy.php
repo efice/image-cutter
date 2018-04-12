@@ -1,8 +1,8 @@
 <?php namespace Folklore\Image;
 
 use GuzzleHttp\Client as GuzzleClient;
-use Folklore\Image\Exception\FileMissingException;
-use Folklore\Image\Events\ImageSaved;
+use Efice\Image\Exception\FileMissingException;
+use Efice\Image\Events\ImageSaved;
 
 use finfo;
 

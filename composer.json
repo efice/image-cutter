@@ -1,20 +1,14 @@
 {
-    "name": "folklore/image",
-    "description": "Image manipulation library for Laravel 5 based on Imagine and inspired by Croppa for easy url based manipulation",
+    "name": "efice/image-cutter",
+    "description": "ImageCutter",
     "keywords": ["laravel","image","imagick","gd","imagine","watermark","gmagick","thumbnail"],
-    "homepage": "http://github.com/Folkloreatelier/laravel-image",
+    "homepage": "http://ideiasweb.com/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Folklore",
-            "email": "info@atelierfolklore.ca",
-            "homepage": "http://atelierfolklore.ca"
-        },
-        {
-            "name": "David Mongeau-Petitpas",
-            "email": "dmp@atelierfolklore.ca",
-            "homepage": "http://mongo.ca",
-            "role": "Developer"
+            "name": "Mauricio",
+            "email": "mguariero@gmail.com",
+            "homepage": "http://ideiasweb.com/"
         }
     ],
     "require": {
@@ -32,8 +26,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Folklore\\Image\\": "src/",
-            "Folklore\\Image\\Tests": "tests/"
+            "Efice\\Image\\": "src/",
+            "Efice\\Image\\Tests": "tests/"
         }
     },
     "autoload-dev": {

@@ -1,7 +1,7 @@
-<?php namespace Folklore\Image\Tests;
+<?php namespace Efice\Image\Tests;
 
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Folklore\Image\Exception\FormatException;
+use Efice\Image\Exception\FormatException;
 use Orchestra\Testbench\TestCase;
 
 class ImageProxyTestCase extends TestCase
@@ -101,13 +101,13 @@ class ImageProxyTestCase extends TestCase
 
     protected function getPackageProviders($app)
     {
-        return array('Folklore\Image\ImageServiceProvider');
+        return array('Efice\Image\ImageServiceProvider');
     }
 
     protected function getPackageAliases($app)
     {
         return array(
-            'Image' => 'Folklore\Image\Facades\Image'
+            'Image' => 'Efice\Image\Facades\Image'
         );
     }
 }

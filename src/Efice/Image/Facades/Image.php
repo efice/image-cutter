@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image\Facades;
+<?php namespace Efice\Image\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
