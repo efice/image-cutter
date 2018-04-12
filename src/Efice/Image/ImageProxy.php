@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image;
+<?php namespace Efice\Image;
 
 use GuzzleHttp\Client as GuzzleClient;
 use Efice\Image\Exception\FileMissingException;

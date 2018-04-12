@@ -9,10 +9,10 @@
 		module.exports = factory();
 	} else {
 		// Browser globals (root is window)
-		if(typeof(root.Folklore) === 'undefined') {
-			root.Folklore = {};
+		if(typeof(root.Efice) === 'undefined') {
+			root.Efice = {};
 		}
-		root.Folklore.Image = factory();
+		root.Efice.Image = factory();
 	}
 }(this, function () {
 	

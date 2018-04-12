@@ -11,7 +11,7 @@
          syntaxCheck="false"
 >
     <testsuites>
-        <testsuite name="Folklore/Image Test Suite">
+        <testsuite name="Efice/Image Test Suite">
             <file>./tests/ImageTestCase.php</file>
             <file>./tests/ImageServeTestCase.php</file>
             <file>./tests/ImageProxyTestCase.php</file>
@@ -19,7 +19,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/Folklore/Image</directory>
+            <directory suffix=".php">./src/Efice/Image</directory>
         </whitelist>
     </filter>
     <logging>

@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image;
+<?php namespace Efice\Image;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -32,7 +32,7 @@ class ImageServiceProvider extends ServiceProvider
         ], 'config');
         
         $this->publishes([
-            $publicFile => public_path('vendor/folklore/image')
+            $publicFile => public_path('vendor/efice/image')
         ], 'public');
 
         $app = $this->app;

@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image;
+<?php namespace Efice\Image;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

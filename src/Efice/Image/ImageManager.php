@@ -1,4 +1,4 @@
-<?php namespace Folklore\Image;
+<?php namespace Efice\Image;
 
 use Efice\Image\Exception\Exception;
 use Efice\Image\Exception\FileMissingException;
