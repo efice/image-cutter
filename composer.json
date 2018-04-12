@@ -1,0 +1,44 @@
+{
+    "name": "folklore/image",
+    "description": "Image manipulation library for Laravel 5 based on Imagine and inspired by Croppa for easy url based manipulation",
+    "keywords": ["laravel","image","imagick","gd","imagine","watermark","gmagick","thumbnail"],
+    "homepage": "http://github.com/Folkloreatelier/laravel-image",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Folklore",
+            "email": "info@atelierfolklore.ca",
+            "homepage": "http://atelierfolklore.ca"
+        },
+        {
+            "name": "David Mongeau-Petitpas",
+            "email": "dmp@atelierfolklore.ca",
+            "homepage": "http://mongo.ca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*",
+        "guzzlehttp/guzzle": "5.3|~6.0",
+        "imagine/imagine": "0.6.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.1.*|3.2.*|3.3.*|3.4.*|3.5.*|3.6.*",
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "satooshi/php-coveralls": "^1.0",
+        "phpunit/phpunit": "~4.0|~5.0|~5.7|~6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Folklore\\Image\\": "src/",
+            "Folklore\\Image\\Tests": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
